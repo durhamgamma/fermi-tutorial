@@ -1,6 +1,12 @@
 # fermi-tutorial
 Tutorial to conduct fermi analysis including fermitools and fermipy
 
+# To Run the tutorials
+
+To run the tutorials simply open your chosen tutorial number in a Jupyter notebook e.g.
+
+```jupyter notebook Tutorial 1. The Fermi Data.ipynb```
+
 ## To package this tutorial inside the tutorial docker container found in the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo
 Clone this repo into a new directory call "fermi-tutorial"
 
