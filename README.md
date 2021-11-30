@@ -1,9 +1,9 @@
 # fermi-tutorial
 Tutorial to conduct fermi analysis including fermitools and fermipy
 
-# To Run the tutorials
+## Running the tutorials
 
-To run the tutorials simply open your chosen tutorial number in a Jupyter notebook e.g.
+To run the tutorials simply open your chosen tutorial number in a Jupyter notebook and complete work through as required e.g.
 
 ```jupyter notebook Tutorial 1. The Fermi Data.ipynb```
 
