@@ -17,7 +17,7 @@ Navigate into your newly created directory called "fermi-tutorial", and run the 
 Once you have the tutorial notebook open just follow the instructions and complete the learning exercises as required.
 
 ## Dependecies
-To run this tutorial you need Fermitools v2.0.8 and Fermipy v1.0.1 installed.
+To run this tutorial you need [Fermitools](https://github.com/fermi-lat/Fermitools-conda/wiki) v2.0.8 and [Fermipy](https://fermipy.readthedocs.io/en/latest/index.html) v1.0.1 installed.
 
 Tutorial 1 requires you to run both the jupyter notebook as well as running fermitools from the command line.
 
