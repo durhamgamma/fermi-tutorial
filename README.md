@@ -1,17 +1,20 @@
 # fermi-tutorial
 Tutorial to conduct fermi analysis including fermitools and fermipy
 
+## Installation Instructions
+
+Simply clone this repo into a new directory call "fermi-tutorial"
+
 ## Running the tutorials
 
-To run the tutorials simply open your chosen tutorial number in a Jupyter notebook and complete the learning exercises as required e.g.
+Navigate into your newly created directory called "fermi-tutorial", and run the tutorials by simply opening your chosen tutorial number using Jupyter e.g.
 
 ```jupyter notebook Tutorial 1. The Fermi Data.ipynb```
 
-## To package this tutorial inside the tutorial docker container found in the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo
-Clone this repo into a new directory call "fermi-tutorial"
 
-Once complete, make a tarball of the directory and name it fermi-tutorial.tar.gz.
+Once you have the tutorial notebook open just follow the instructions and complete the learning exercises as required.
 
-```tar -cvzf fermi-tutorial.tar.gz fermi-tutorial/```
+## Dependecies
+To run this tutorial you need Fermitools v2.0.8 and Fermipy v1.0.1 installed.
 
-Copy this tarball into your working directory for creating the docker container.
+You can also run the tutorial using a docker image. You can build the one provided in the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo.
