@@ -29,4 +29,4 @@ model:
   src_roiwidth : 20.0 #Includes sources outside of the ROI
   galdiff  : 'gll_iem_v07.fits' # The most recent and up to date model of the galactic diffuse emission
   isodiff  : 'iso_P8R3_SOURCE_V3_v1.txt' # The most recent and up to date model for the isotropic diffuse emission, and for our event class
-  catalogs : ['4FGL'] # The 4FGL catalogue, 8 year Fermi-LAT point source catalogue.
+  catalogs : ['4FGL-DR3'] # The 4FGL catalogue, 8 year Fermi-LAT point source catalogue.
