@@ -2,7 +2,7 @@
 
 data:
   evfile : events.txt #our list of photon files
-  scfile : data/L1910170847288E15477E17_SC00.fits #our spacecraft file
+  scfile : ../data/L1910170847288E15477E17_SC00.fits #our spacecraft file
 
 binning:
   roiwidth   : 15.0 # Let's keep a small roi
