@@ -9,9 +9,9 @@ Simply clone this repo into a new directory called "fermi-tutorial" e.g.
 
 ## Running the tutorials
 
-Navigate into your newly created directory called "fermi-tutorial", and run the tutorials by simply opening your chosen tutorial number using Jupyter e.g.
+Navigate into your newly created directory called "fermi-tutorial", and then into the approprate tutorial folder e.g. tutorial1-fermidata. From there you can run the tutorials by simply opening your chosen tutorial number using Jupyter e.g.
 
-```jupyter notebook Tutorial 1. The Fermi Data.ipynb```
+```jupyter notebook tutorial-1-fermidata.ipynb```
 
 
 Once you have the tutorial notebook open just follow the instructions and complete the learning exercises as required.
@@ -21,6 +21,8 @@ To run this tutorial you need [Fermitools](https://github.com/fermi-lat/Fermitoo
 
 Tutorial 2 requires you to run both the jupyter notebook as well as running fermitools from the command line.
 
-You can also run the tutorial using a docker image. You can build the one provided in the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo.
+Whilst these tutorials can be run using your own installation of the fermitools and fermipy, they were really designed to be run inside Durham's fermi tutorial docker image. You can build the one provided in the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo.
 
 More instructions about running the tutorial using the docker container can be found in the README of the [fermi-tutorial-docker](https://github.com/durhamgamma/fermi-tutorial-docker) repo.
+
+If you do run these tutorials using your own installation of the fermitools and fermipy, then you may need to adjust any paths accordingly to the requirements of your system.
