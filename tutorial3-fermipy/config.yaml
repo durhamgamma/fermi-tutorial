@@ -3,7 +3,7 @@
 data:
   evfile : events.txt #our list of photon files
   scfile : /data/L1910170847288E15477E17_SC00.fits #our spacecraft file
-  ltcube : null
+  ltcube : null #generate a new ltcube (null) or add a path to an existing ltcube
 
 binning:
   roiwidth   : 15.0 # Let's keep a small roi
@@ -30,4 +30,4 @@ model:
   src_roiwidth : 20.0 #Includes sources outside of the ROI
   galdiff  : 'gll_iem_v07.fits' # The most recent and up to date model of the galactic diffuse emission
   isodiff  : 'iso_P8R3_SOURCE_V3_v1.txt' # The most recent and up to date model for the isotropic diffuse emission, and for our event class
-  catalogs : ['4FGL-DR3'] # The 4FGL-DR3 catalogue, 14-year Fermi-LAT point source catalogue.
+  catalogs : ['4FGL-DR3'] # The 4FGL-DR3 catalogue, 12-year Fermi-LAT point source catalogue.
